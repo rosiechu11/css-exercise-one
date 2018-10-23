@@ -1,36 +1,44 @@
-body
+body {
   font-size: 14px;
 }
 
+/**navigation bar*/
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
+}
 
 section {
   margin: 0 auto;
   width: 60%;
 }
-
+/*For nav bar*/
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
 
 .example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
-
+/*Font is smaller*/
 h3 {
   font-size: 1.3em;
 }
+/*sets each element to green*/
 
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+/**overrides background color to blue**/
+
+.color {
+  background-color: blue;
+}
